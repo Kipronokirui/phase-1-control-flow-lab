@@ -26,12 +26,13 @@ function ternaryCheckCity(city){
 }
 
 function switchOnCharmFromTip(tip){
+  const Bye = "Bye."
   // Write your code here!
   if (tip == "generous"){
     return "Thank you so much."
   }else if(tip != "generous"){
     return "Thank you."
   }else{
-    return "Bye."
+    return Bye
   }
 }
